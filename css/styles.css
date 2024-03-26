@@ -13,6 +13,7 @@ ul,
 ol {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -52,16 +53,14 @@ img{
 .header-container {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 1158px;
+    align-items: center;
 }
 
 .container{
     margin: 0 auto;
     padding: 0 15px;
     width: 1158px;
-    display:flex;
+
     /* outline: 2px solid red; */
 }
 
@@ -101,6 +100,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .menu-link:hover, .menu-link:focus, .menu-link:active{
