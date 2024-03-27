@@ -103,6 +103,7 @@ img{
     letter-spacing: 0.02em;
     padding: 24px 0;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover, .menu-link:focus, .menu-link:active{
@@ -113,11 +114,13 @@ img{
 .contact{
     display: flex;
     gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .info{
     font-style: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-info{
@@ -125,6 +128,7 @@ img{
     font-size:16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -148,6 +152,7 @@ img{
   border-radius: 4px;
   cursor: pointer;
   margin: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service-button:hover, .order-service-button:focus{
@@ -363,6 +368,11 @@ img{
 .order-service{
     background-color: #2E2F42;
     padding: 188px 0;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 
 }
 
