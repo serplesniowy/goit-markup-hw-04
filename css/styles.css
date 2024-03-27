@@ -177,7 +177,6 @@ img{
     letter-spacing: 0.02em;
     color:#2E2F42;  
     margin-bottom: 8px;
-    text-align: center;
     margin-bottom: 8px;
 }
 
@@ -200,7 +199,6 @@ img{
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 
 .about-us{
@@ -216,7 +214,10 @@ img{
     text-transform: capitalize;
     color:#2E2F42;
     margin-bottom: 72px;
+}
 
+.our-team-section{
+    background-color: #fcfcfc;
 }
 
 .team-list{
@@ -232,6 +233,7 @@ img{
 
 .photo-cont{
     padding: 32px 0px;
+    text-align: center;
 }
 
 .portfolio-list{
