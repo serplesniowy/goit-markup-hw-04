@@ -194,6 +194,21 @@ img{
 
 }
 
+.values-icons{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+}
+
+.social-icons{
+    fill: #f4f4fd;
+}
+
 .values-text{
     font-size: 16px;
     color: #434455;
