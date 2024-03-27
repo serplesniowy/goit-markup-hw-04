@@ -194,7 +194,7 @@ img{
 
 }
 
-.values-icons{
+.values-icons-box{
     display: flex;
   align-items: center;
   justify-content: center;
@@ -205,8 +205,8 @@ img{
   border: 1px solid #8e8f99;
 }
 
-.social-icons{
-    fill: #f4f4fd;
+.values-icons{
+    fill: red;
 }
 
 .values-text{
